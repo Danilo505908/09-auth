@@ -11,7 +11,7 @@ export const fetchNotes = async (params?: {
   perPage?: number;
   tag?: string;
 }): Promise<Note[]> => {
-  const cookieStore = cookies();
+  const cookieStore = await cookies();
   const accessToken = cookieStore.get('accessToken')?.value;
   const refreshToken = cookieStore.get('refreshToken')?.value;
 
@@ -32,7 +32,7 @@ export const fetchNotes = async (params?: {
 };
 
 export const fetchNoteById = async (id: string): Promise<Note> => {
-  const cookieStore = cookies();
+  const cookieStore = await cookies();
   const accessToken = cookieStore.get('accessToken')?.value;
   const refreshToken = cookieStore.get('refreshToken')?.value;
 
@@ -53,7 +53,7 @@ export const fetchNoteById = async (id: string): Promise<Note> => {
 
 export const getMe = async (): Promise<User> => {
   try {
-    const cookieStore = cookies();
+    const cookieStore = await cookies();
     const accessToken = cookieStore.get('accessToken')?.value;
     const refreshToken = cookieStore.get('refreshToken')?.value;
 
@@ -82,7 +82,7 @@ export const getMe = async (): Promise<User> => {
 
 export const checkSession = async (): Promise<AxiosResponse<Session> | null> => {
   try {
-    const cookieStore = cookies();
+    const cookieStore = await cookies();
     const accessToken = cookieStore.get('accessToken')?.value;
     const refreshToken = cookieStore.get('refreshToken')?.value;
 
