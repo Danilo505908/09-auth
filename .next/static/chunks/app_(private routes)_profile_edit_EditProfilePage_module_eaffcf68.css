@@ -1,0 +1,115 @@
+/* [project]/app/(private routes)/profile/edit/EditProfilePage.module.css [app-client] (css) */
+.EditProfilePage-module__XoJWpq__mainContent {
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  padding: 32px;
+  display: flex;
+}
+
+.EditProfilePage-module__XoJWpq__profileCard {
+  text-align: left;
+  background-color: #fff;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 500px;
+  padding: 24px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, .05);
+}
+
+.EditProfilePage-module__XoJWpq__formTitle {
+  color: #1a1a1a;
+  text-align: left;
+  margin-bottom: 24px;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.EditProfilePage-module__XoJWpq__avatar {
+  object-fit: cover;
+  border-radius: 50%;
+  margin: 0 auto 24px;
+  display: block;
+}
+
+.EditProfilePage-module__XoJWpq__profileInfo {
+  color: #333;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  font-size: 18px;
+  display: flex;
+}
+
+.EditProfilePage-module__XoJWpq__usernameWrapper {
+  flex-direction: column;
+  width: 100%;
+  display: flex;
+}
+
+.EditProfilePage-module__XoJWpq__usernameWrapper label {
+  color: #222;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+.EditProfilePage-module__XoJWpq__input {
+  outline-offset: 2px;
+  border: 1.5px solid #ccc;
+  border-radius: 8px;
+  padding: 10px 12px;
+  font-size: 16px;
+  transition: border-color .2s;
+}
+
+.EditProfilePage-module__XoJWpq__input:focus {
+  border-color: #0d6efd;
+  outline: none;
+}
+
+.EditProfilePage-module__XoJWpq__profileInfo p {
+  margin: 0;
+  font-weight: 500;
+}
+
+.EditProfilePage-module__XoJWpq__saveButton {
+  color: #fff;
+  cursor: pointer;
+  text-align: center;
+  background-color: #0d6efd;
+  border: none;
+  border-radius: 8px;
+  align-self: stretch;
+  padding: 12px 24px;
+  font-size: 18px;
+  font-weight: 600;
+  transition: background-color .3s;
+}
+
+.EditProfilePage-module__XoJWpq__saveButton:hover {
+  background-color: #0b5ed7;
+}
+
+.EditProfilePage-module__XoJWpq__cancelButton {
+  color: #6c757d;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0);
+  border: 2px solid #6c757d;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-size: 16px;
+  transition: background-color .2s, color .2s;
+}
+
+.EditProfilePage-module__XoJWpq__cancelButton:hover {
+  color: #fff;
+  background-color: #6c757d;
+}
+
+.EditProfilePage-module__XoJWpq__actions {
+  gap: 12px;
+  margin-top: 20px;
+  display: flex;
+}
+
+/*# sourceMappingURL=app_%28private%20routes%29_profile_edit_EditProfilePage_module_eaffcf68.css.map*/

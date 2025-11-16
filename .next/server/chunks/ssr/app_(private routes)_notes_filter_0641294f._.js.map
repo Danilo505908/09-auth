@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 3, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/app/(private routes)/notes/filter/LayoutNotes.module.css [app-rsc] (css module)"],"sourcesContent":["__turbopack_context__.v({\n  \"container\": \"LayoutNotes-module__GVuWlW__container\",\n  \"notesWrapper\": \"LayoutNotes-module__GVuWlW__notesWrapper\",\n  \"sidebar\": \"LayoutNotes-module__GVuWlW__sidebar\",\n});\n"],"names":[],"mappings":"AAAA;AACA;AACA;AACA;AACA"}},
+    {"offset": {"line": 12, "column": 0}, "map": {"version":3,"sources":["file:///Users/danahmaruk/Desktop/projects/auth/app/%28private%20routes%29/notes/filter/layout.tsx"],"sourcesContent":["import styles from \"./LayoutNotes.module.css\";\n\nexport default function FilterLayout({\n  children,\n  sidebar,\n}: {\n  children: React.ReactNode;\n  sidebar?: React.ReactNode;\n}) {\n  return (\n    <div className={styles.container}>\n      <aside className={styles.sidebar}>{sidebar ?? null}</aside>\n      <main className={styles.notesWrapper}>{children}</main>\n    </div>\n  );\n}\n"],"names":[],"mappings":";;;;;AAAA;;;AAEe,SAAS,aAAa,EACnC,QAAQ,EACR,OAAO,EAIR;IACC,qBACE,8OAAC;QAAI,WAAW,mLAAM,CAAC,SAAS;;0BAC9B,8OAAC;gBAAM,WAAW,mLAAM,CAAC,OAAO;0BAAG,WAAW;;;;;;0BAC9C,8OAAC;gBAAK,WAAW,mLAAM,CAAC,YAAY;0BAAG;;;;;;;;;;;;AAG7C","debugId":null}}]
+}

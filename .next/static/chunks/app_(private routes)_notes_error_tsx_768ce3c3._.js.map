@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///Users/danahmaruk/Desktop/projects/auth/app/%28private%20routes%29/notes/error.tsx"],"sourcesContent":["\"use client\";\nexport default function NotesError({ error }: { error: Error }) {\n  return <p>Could not fetch the list of notes. {error.message}</p>;\n}"],"names":[],"mappings":";;;;;AAAA;;AACe,SAAS,WAAW,KAA2B;QAA3B,EAAE,KAAK,EAAoB,GAA3B;IACjC,qBAAO,6LAAC;;YAAE;YAAoC,MAAM,OAAO;;;;;;;AAC7D;KAFwB","debugId":null}}]
+}

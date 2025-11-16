@@ -1,0 +1,82 @@
+/* [project]/components/Modal/Modal.module.css [app-client] (css) */
+.Modal-module__sR2AWG__backdrop {
+  z-index: 1000;
+  background-color: rgba(33, 37, 41, .6);
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.Modal-module__sR2AWG__modal {
+  background-color: #fff;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 500px;
+  padding: 24px;
+  position: relative;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, .3);
+}
+
+/* [project]/app/(private routes)/notes/[id]/NoteDetails.module.css [app-client] (css) */
+.NoteDetails-module__3vNgqW__container {
+  background-color: #fff;
+  border-radius: 8px;
+  max-width: 800px;
+  margin: 32px auto;
+  padding: 24px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, .05);
+}
+
+.NoteDetails-module__3vNgqW__item {
+  flex-direction: column;
+  gap: 16px;
+  display: flex;
+}
+
+.NoteDetails-module__3vNgqW__header {
+  border-bottom: 1px solid #ddd;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 8px;
+  display: flex;
+}
+
+.NoteDetails-module__3vNgqW__header h2 {
+  color: #333;
+  margin: 0;
+  font-size: 28px;
+}
+
+.NoteDetails-module__3vNgqW__content {
+  color: #444;
+  white-space: pre-wrap;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.NoteDetails-module__3vNgqW__date {
+  color: #888;
+  text-align: right;
+  font-size: 14px;
+}
+
+.NoteDetails-module__3vNgqW__tag {
+  color: #0d6efd;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  background-color: #e7f1ff;
+  border: 1px solid #b6d4fe;
+  border-radius: 12px;
+  max-width: 100px;
+  padding: 4px 8px;
+  font-size: 12px;
+  display: inline-block;
+  overflow: hidden;
+}
+
+/*# sourceMappingURL=_933f6fc6._.css.map*/

@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///Users/danahmaruk/Desktop/projects/auth/app/%28private%20routes%29/layout.tsx"],"sourcesContent":["import { ReactNode } from \"react\";\nimport AuthProvider from \"../../components/AuthProvider/AuthProvider\";\nimport TanStackProvider from \"../../components/TanStackProvider/TanStackProvider\";\n\ninterface PrivateLayoutProps {\n  children: ReactNode;\n}\n\nexport default function PrivateLayout({ children }: PrivateLayoutProps) {\n  return (\n    <TanStackProvider>\n      <AuthProvider>{children}</AuthProvider>\n    </TanStackProvider>\n  );\n}\n"],"names":[],"mappings":";;;;;AACA;AACA;;;;AAMe,SAAS,cAAc,EAAE,QAAQ,EAAsB;IACpE,qBACE,8OAAC,8JAAgB;kBACf,cAAA,8OAAC,sJAAY;sBAAE;;;;;;;;;;;AAGrB","debugId":null}}]
+}

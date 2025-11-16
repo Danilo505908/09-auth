@@ -1,0 +1,19 @@
+{
+  "app": {
+    "[project]/app/(auth routes)/sign-in/page": [
+      "static/media/ce62453a442c7f35-s.p.a9507876.woff2"
+    ],
+    "[project]/app/(private routes)/profile/edit/page": [
+      "static/media/ce62453a442c7f35-s.p.a9507876.woff2"
+    ],
+    "[project]/app/(private routes)/profile/page": [
+      "static/media/ce62453a442c7f35-s.p.a9507876.woff2"
+    ],
+    "[project]/app/page": [
+      "static/media/ce62453a442c7f35-s.p.a9507876.woff2"
+    ]
+  },
+  "appUsingSizeAdjust": true,
+  "pages": {},
+  "pagesUsingSizeAdjust": false
+}

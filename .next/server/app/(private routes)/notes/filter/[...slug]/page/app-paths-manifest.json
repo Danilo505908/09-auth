@@ -1,0 +1,3 @@
+{
+  "/(private routes)/notes/filter/[...slug]/page": "app/(private routes)/notes/filter/[...slug]/page.js"
+}

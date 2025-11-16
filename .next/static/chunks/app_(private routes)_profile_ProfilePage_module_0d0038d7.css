@@ -1,0 +1,78 @@
+/* [project]/app/(private routes)/profile/ProfilePage.module.css [app-client] (css) */
+.ProfilePage-module__RVJE3a__mainContent {
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  padding: 32px;
+  display: flex;
+}
+
+.ProfilePage-module__RVJE3a__profileCard {
+  text-align: left;
+  background-color: #fff;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 500px;
+  padding: 24px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, .05);
+}
+
+.ProfilePage-module__RVJE3a__formTitle {
+  color: #1a1a1a;
+  text-align: left;
+  margin-bottom: 24px;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.ProfilePage-module__RVJE3a__avatarWrapper {
+  justify-content: center;
+  margin-bottom: 16px;
+  display: flex;
+}
+
+.ProfilePage-module__RVJE3a__avatar {
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.ProfilePage-module__RVJE3a__profileInfo {
+  color: #333;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  font-size: 18px;
+  display: flex;
+}
+
+.ProfilePage-module__RVJE3a__usernameWrapper {
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  display: flex;
+}
+
+.ProfilePage-module__RVJE3a__header {
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+  display: flex;
+}
+
+.ProfilePage-module__RVJE3a__editProfileButton {
+  color: #fff;
+  cursor: pointer;
+  background-color: #0d6efd;
+  border-radius: 6px;
+  padding: 8px 16px;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background-color .3s;
+}
+
+.ProfilePage-module__RVJE3a__editProfileButton:hover {
+  background-color: #0b5ed7;
+}
+
+/*# sourceMappingURL=app_%28private%20routes%29_profile_ProfilePage_module_0d0038d7.css.map*/
